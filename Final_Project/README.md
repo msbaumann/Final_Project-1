@@ -1,18 +1,7 @@
-Introduction
-	There are many levels that neuroscience can be approached on, from single neurons, to systems of nuerons,
-to larger anatomical regions. Even single neurons however have complex electrical and biological properties. 
-These can be investigated in vitro or in vivo, but the can also be investigated in "silica",  through  
-simulation. Computer simulation has certain advantages over traditional investigative methods in that it 
-does not require a lab or samples. It also allows for nueral systems to be simplified and the variables 
-to be tightly controlled. 
-	In this project I will be simulating nuerons in the nucleus accumbens(Nac) shell that have been linked 
-to addiction through several lines of evidence. I will be attempting to create different models of how the
-transport protein p11(S100A10) may be effecting the surface expression of D2 receptors, and how that may be
-effecting the electrical activity of these nuerons. If succesful this project will generate models testable
-in vitro. 
-Goals of the program:
-1. Simulate nucleus accumbens shell neurons and output data about firing rate with different p11 levels and 
-effects.
-2. Compare the results in python and create predictions about how Nac nuerons should act with p11 acting in 
-different ways.
-Current Challenges: importing the nueron library into python.  This is the master folder for the new project.
+Miles Ingram
+Ten Minute Plan
+	I am now investigating gene expression of seratonergic neurons in C. elegans. This will be done by comparing the
+RNA expression in seratonergic neurons and reference neurons from C. elegans. The data was aqcuired from this paper: 
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0112102#s6. Major challenges currently include munging 
+the data by the expressed gene for comparison. I suspect this can be done through regular expressions as each entry has 
+the same gene code (e.g. zf1), but a different number. 
